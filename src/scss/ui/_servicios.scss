@@ -1,4 +1,39 @@
 @use "../custom" as *;
+.slider{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slider-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 14);  
+
+}
+.slider .slide{
+  width: 300px;
+  
+
+}
+
+.coin-img{
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes scroll{
+  0% {
+    -webkit-transform: translateX(calc(200px * 7));
+    transform: translateX(calc(200px * 7));
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 7));
+    transform: translateX(calc(-200px * 7));
+  }
+}
 
 .bg-nav {
   background: linear-gradient(0deg, #41b07d 0%, #15375c 100%);

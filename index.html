@@ -11,9 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="build/css/app.min.css" />
+    <link rel="stylesheet" href="build/css/app.css" />
   </head>
   <body>
+  <div class="bg-dark">
+    <div class="slider">
+      <div class="slider-track" id="track">
+       
+       
+      </div>
+    </div>
+  </div>
     <header class="side-header">
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-5">
         <div class="container-xl">
@@ -45,7 +53,9 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light text-uppercase" href="/noticias.html"
+                <a
+                  class="nav-link text-light text-uppercase"
+                  href="/noticias.html"
                   >noticias</a
                 >
               </li>
@@ -55,7 +65,9 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light text-uppercase" href="/faq.html">faq</a>
+                <a class="nav-link text-light text-uppercase" href="/faq.html"
+                  >faq</a
+                >
               </li>
             </ul>
             <form class="d-flex justify-content-center">
@@ -327,7 +339,7 @@
     </div>
     <footer class="bg-dark py-5" style="background-color: #0a2035">
       <div class="container-xl">
-        <div class="row  flex-column-reverse flex-md-row">
+        <div class="row flex-column-reverse flex-md-row">
           <div class="col-md-2 me-auto">
             <a href="#" class="footer-logo">
               <img
@@ -363,7 +375,9 @@
             </div>
           </div>
 
-          <div class="col-12 d-flex flex-column col-md-6 flex-md-row gap-2  justify-content-around p-0">
+          <div
+            class="col-12 d-flex flex-column col-md-6 flex-md-row gap-2 justify-content-around p-0"
+          >
             <nav
               class="col-md-4 d-grid gap-2 text-center text-md-start mt-4 mt-md-0"
             >
@@ -422,6 +436,8 @@
       </div>
     </footer>
 
+    <script src="/src/js/http.js"></script>
     <script src="./src/js/bootstrap.bundle.min.js"></script>
+
   </body>
 </html>

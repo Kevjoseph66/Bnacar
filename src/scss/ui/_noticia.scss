@@ -1,6 +1,6 @@
 @use "../custom" as *;
 .bg-noticia {
-  background-image: url(../../../src/img/image\ 1.png);
+  background-image: url(../../../src/img/tarjeta-grande.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -8,5 +8,40 @@
 
   @media (min-width: 768px) {
     height: 521px;
+  }
+}
+.slider{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slider-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 14);  
+
+}
+.slider .slide{
+  width: 300px;
+  
+
+}
+
+.coin-img{
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes scroll{
+  0% {
+    -webkit-transform: translateX(calc(200px * 7));
+    transform: translateX(calc(200px * 7));
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 7));
+    transform: translateX(calc(-200px * 7));
   }
 }
