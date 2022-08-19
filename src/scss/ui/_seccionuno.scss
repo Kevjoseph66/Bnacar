@@ -1,0 +1,62 @@
+@use "../custom" as *;
+
+.contenido {
+  padding: 70px 0;
+  width: 100%;
+  
+  
+  @media (min-width: 768px) {
+    padding: 100px 0;
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 900;
+    @media (min-width: 768px) {
+      font-size: 25px;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: $font-family-sans-serif;
+    color: $azul;
+
+    @media (min-width: 768px) {
+      font-size: 15px;
+    }
+  }
+
+  
+  h4{
+    font-weight: 900;
+    padding:0  50px;
+    font-size: 20px;
+    @media (min-width: 992px) {
+        font-size: 25px;
+        padding:0;
+      }
+  }
+
+  .separador_contenido{
+    padding: 50px 0;
+    @media (min-width: 768px) {
+      padding: 100px 0;
+      
+    }
+
+  }
+
+  .bg-porfolio{
+    background-image: url(../../../src/img/Bancar6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+
+  }
+
+ 
+}

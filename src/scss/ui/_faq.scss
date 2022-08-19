@@ -1,0 +1,17 @@
+@use "../custom" as *;
+
+
+.faq-titulo{
+    color: $azul;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.faq-titulo:hover,.faq-titulo:active{
+    color: $verde;
+}
+
+.faq-texto{
+    font-size: 15px;
+    color: $azul;
+}

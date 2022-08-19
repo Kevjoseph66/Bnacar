@@ -1,0 +1,12 @@
+@use "../custom" as *;
+.bg-noticia {
+  background-image: url(../../../src/img/image\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 348px;
+
+  @media (min-width: 768px) {
+    height: 521px;
+  }
+}

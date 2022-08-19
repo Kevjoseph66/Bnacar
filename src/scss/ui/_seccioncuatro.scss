@@ -1,0 +1,57 @@
+@use "../custom" as *;
+
+.bg-verde {
+  background-image: url(../../../src/img/Bancar7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+}
+
+.crypto_bg{
+ background-image: url(../../../src/img/Bancar\ \(13\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 1330px;
+  min-height: 60%;
+  margin-top: 0px; 
+  margin-top: -288px;
+  @media (min-width: 768px) {
+    height: 1015px;
+    margin-top: -330px;
+    
+  }
+
+}
+
+.testimonial-titulo {
+  font-size:30px!important ;
+
+  @media (min-width: 768px) {
+    font-size: 40px !important;
+  }
+
+}
+
+.testimonial-contenido {
+  font-size: 16px!important ;
+  width: auto;
+
+  @media (min-width: 768px) {
+    font-size: 20px!important;
+    width: 600px ;
+    
+  }
+
+ }
+
+.registrate_titulo{
+  padding: 15rem 0 5rem 0;
+}
+
+.svg-registro{
+  width: 65.2px;
+  height: 75.8px;
+}
+
